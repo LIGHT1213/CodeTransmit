@@ -210,6 +210,7 @@ class Ui_MainWindow(object):
         self.comboBox.addItem("")
         self.comboBox.addItem("")
         self.comboBox.addItem("")
+        self.comboBox.addItem("")
         self.comboBox.setObjectName(u"comboBox")
 
         self.horizontalLayout_5.addWidget(self.comboBox)
@@ -275,7 +276,7 @@ class Ui_MainWindow(object):
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"\u7f16\u7801\u8f6c\u6362\u5de5\u5177V1.0.0(2020.03.16)", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"\u7f16\u7801\u8f6c\u6362\u5de5\u5177V1.0.1(2024.12.28)", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"\u5f53\u524d\u8def\u5f84:", None))
         self.labelPath.setText("")
         self.groupBoxPath.setTitle(QCoreApplication.translate("MainWindow", u"\u8def\u5f84\u8bbe\u7f6e", None))
@@ -301,6 +302,7 @@ class Ui_MainWindow(object):
         self.comboBox.setItemText(0, QCoreApplication.translate("MainWindow", u"UTF-8 BOM", None))
         self.comboBox.setItemText(1, QCoreApplication.translate("MainWindow", u"UTF-8", None))
         self.comboBox.setItemText(2, QCoreApplication.translate("MainWindow", u"GB2312", None))
+        self.comboBox.setItemText(3, QCoreApplication.translate("MainWindow", u"JIS", None))
 
         self.btnTransmit.setText(QCoreApplication.translate("MainWindow", u"\u8f6c\u6362", None))
         self.btnClear.setText(QCoreApplication.translate("MainWindow", u"\u6e05\u5c4f", None))

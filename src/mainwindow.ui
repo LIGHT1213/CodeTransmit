@@ -7,11 +7,11 @@
     <x>0</x>
     <y>0</y>
     <width>623</width>
-    <height>487</height>
+    <height>529</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>编码转换工具V1.0.0(2020.03.16)</string>
+   <string>编码转换工具V1.0.1(2024.12.28)</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout" stretch="0,5,0">
@@ -328,6 +328,11 @@
                <item>
                 <property name="text">
                  <string>GB2312</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>JIS</string>
                 </property>
                </item>
               </widget>

@@ -20,6 +20,7 @@ import threading
 UTF8_BOM = 0
 UTF8 = 1
 GB2312 = 2
+JIS = 3
 
 FILE = 0
 FOLDER = 1
@@ -36,7 +37,7 @@ class MainWindow(QMainWindow):
         self.__fileSuffix = ['.c', '.h', '.cpp', '.hpp']    #内置可勾选的文件类型
         self.__customFileSuffix = []                        #自定义的文件类型
         self.__encodeType = 'UTF-8-SIG'                     #默认的编码类型
-        self.__encodeTypeArr = ['UTF-8-SIG', 'utf-8', 'GB2312']
+        self.__encodeTypeArr = ['UTF-8-SIG', 'utf-8', 'GB2312' ,'shift-jis']
         self.__fileOrFolder = FOLDER                        #默认处理文件夹
         self.__mWorker = None                               #私有线程变量
 
